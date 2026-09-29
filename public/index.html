@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DocManager - Home</title>
+
+    <!-- Bootstrap CSS from CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Our own small CSS file -->
+    <link href="/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="/">DocManager</a>
+            <div>
+                <a href="/login.html" class="btn btn-light btn-sm">Login</a>
+                <a href="/signup.html" class="btn btn-outline-light btn-sm">Sign up</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main section -->
+    <div class="container hero text-center">
+        <h1 class="fw-bold">Keep all your documents in one place</h1>
+        <p class="lead text-muted mt-3">
+            Upload, organise and open your resume, certificates, college documents,
+            assignments and notes from anywhere.
+        </p>
+        <div class="mt-4">
+            <a href="/signup.html" class="btn btn-primary btn-lg me-2">Get started</a>
+            <a href="/login.html" class="btn btn-outline-primary btn-lg">I already have an account</a>
+        </div>
+    </div>
+
+    <!-- Feature cards -->
+    <div class="container pb-5">
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Upload</h5>
+                        <p class="card-text text-muted">Upload PDF, image and Word files up to 5 MB.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Organise</h5>
+                        <p class="card-text text-muted">Sort documents into categories and search them by name.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Private</h5>
+                        <p class="card-text text-muted">Only you can see and delete your documents.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
